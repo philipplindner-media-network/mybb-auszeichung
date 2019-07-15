@@ -1,0 +1,24 @@
+// unter MYBB Admion oberfleche ->  Template-Sets » Standard » Template bearbeiten: member_profile
+// einfügen an beligiger stelle!
+
+<div class="wassollderscheis tcat">Auszeichungen:</div>
+<ul class="ichwilljetzt">
+<?php
+if ($memprofile['postnum'] < "2"){echo "<li><img src='-Bild-' title='hat weninge als 2 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "10"){echo "<li><img src='-Bild-' title='hat mehr als 10 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "50"){echo "<li><img src='-Bild-' title='hat mehr als 50 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "150"){echo "<li><img src='-Bild-' title='hat mehr als 150 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "250"){echo "<li><img src='-Bild-' title='hat mehr als 250 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "300"){echo "<li><img src='-Bild-' title='hat mehr als 300 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "500"){echo "<li><img src='-Bild-' title='hat mehr als 500 Post geschrieben''></li>";} 
+if ($memprofile['postnum'] > "1000"){echo "<li><img src='-Bild-'  title='hat mehr als 1000 Post geschrieben'></li>";} 
+if ($memprofile['postnum'] > "1500"){echo "<li><img src='-Bild-'  title='hat mehr als 1500 Post geschrieben'></li>";} 
+?>
+<?php
+echo $ausgabe_1;
+echo $ausgabe_2;
+echo $ausgabe_3;
+echo $ausgabe_4;
+echo $ausgabe_5;
+?>
+</ul>
