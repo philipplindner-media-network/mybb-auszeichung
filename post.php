@@ -1,5 +1,6 @@
 //ist unter inc/datahandlers/post.php anzufinden
-// nachfolgenden Cod ab zeile 845 einfügen
+// nachfolgenden Cod ab zeile (Alte Versio 845) (neue Veison ab 840) einfügen
+// unterhabe des Befeles: $plugins->run_hooks("datahandler_post_validate_post", $this);
 
 //----
 
